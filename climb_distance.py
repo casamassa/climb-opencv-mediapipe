@@ -6,7 +6,7 @@ import numpy as np
 import cv2
 
 model_path = 'pose_landmarker_full.task'
-file_name = "video3.mp4"
+file_name = "media/video3.mp4"
 
 options = python.vision.PoseLandmarkerOptions(
             base_options=python.BaseOptions(model_asset_path=model_path),

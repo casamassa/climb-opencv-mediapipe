@@ -1,7 +1,7 @@
 import cv2
 #from matplotlib import pyplot as plt
 
-image_original = cv2.imread("moonboard.jpg")
+image_original = cv2.imread("media/moonboard.jpg")
 
 # Redimensionar a imagem
 altura_desejada = 600  # Defina a altura desejada para a janela

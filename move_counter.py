@@ -6,7 +6,7 @@ import numpy as np
 import cv2
 
 model_path = 'pose_landmarker_full.task'
-file_name = "climb01.jpg"
+file_name = "media/climb01.jpg"
 
 options = python.vision.PoseLandmarkerOptions(
             base_options=python.BaseOptions(model_asset_path=model_path),

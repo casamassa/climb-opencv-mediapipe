@@ -28,7 +28,27 @@ To use the applicaton, follow these steps:
 
 1. Ensure that you have installed the required dependencies.
 
-2. TODO documentation, there so many drafts that I need to organize yet
+2. App to count moves from a video, run:
+
+   ```
+   python move_counter_video.py
+   ```
+
+   Wait until the end of the video, or press the 'q' key to finish immediately. Then look the results in the terminal log.
+
+3. App to calculate a distance climbed from a video, run:
+
+   ```
+   python climb_distance.py
+   ```
+
+   Wait until the end of the video, or press the 'q' key to finish immediately. Then look the results in the terminal log.
+
+4. There are some drafts py files used to study specific parts. To execute the drafts, run:
+
+   ```
+   python name_of_draft_file.py
+   ```
 
 ## Notes
 
