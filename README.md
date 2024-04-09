@@ -6,11 +6,19 @@
 
 The idea of this project is develop an app to use in climb statistics, initially like move counter and distance counter.
 
+## Current Progress
+
+---
+
+1. "Climb distance" app works with poor/medium precision because the results are in pixels. To convert it to centimeters or meters, it's necessary to know the width size of an object in the scenario in centimeters. Then, obtain the width of the object in pixels and calculate 1 pixel to X centimeters. The logic must be improved/refactored because the results appear different from the actual climbing distance.
+
+2. "Moves counter" app works with poor/medium precision because I always check in each video frame if any of the four body landmarks (left, right, or foot) is in contact with any contour/hold. During real climbing, body landmarks may not move between frames, and they can stay in the same contour/hold. Therefore, if I increment the counter in each frame, I may make mistakes with this. In fact, I am certain this is a problem.
+
 ## Dependencies and Installation
 
 ---
 
-To install the application, please follow these steps:
+To install the application dependencies, please follow these steps:
 
 1. Clone the repository to your local machine.
 
